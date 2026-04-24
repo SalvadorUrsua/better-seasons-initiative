@@ -44,9 +44,6 @@
     padding: 12.2rem 3.2rem 6.2rem 3.2rem;
   }
 
-  /* .section-footer {
-  } */
-
   .column-label {
     font-size: 1.8rem;
   }
@@ -194,7 +191,6 @@
 
   .mobile-main-nav .nav-link:link,
   .mobile-main-nav .nav-link:visited {
-    /* font-size: 2.4rem !important; */
     font-size: 2.4rem;
     color: #000;
   }
@@ -250,7 +246,7 @@
 
   /* footer */
 }
-/* #endregion < 960px  */
+/* #endregion < 760px  */
 
 /* #region < 560px = 560 / 16 = 35em */
 @media (max-width: 35em) {

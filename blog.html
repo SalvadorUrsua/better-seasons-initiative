@@ -8,10 +8,10 @@
 
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/blog.css">
-  <link rel="stylesheet" href="styles/media-queries">
+  <link rel="stylesheet" href="styles/blog-queries.css">
 
-  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <script defer type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
   <title>BSI Blog</title>
 </head>
@@ -21,29 +21,31 @@
     <!-- #region featured -->
     <div class="featured">
       <!-- #region header -->
-      <header>
+      <header class="section-header">
         <div class="logo-box">
           <img class="bsi-logo" src="img/BSI-logo-round.png" alt="BSI logo">
-          <p>Between Seasons Initiative - Blog</p>
+          <p class="header-text">Between Seasons Initiative - Blog</p>
         </div>
         <div class="navbar">
-          <a class="nav-link" href="#">
-            Home
-          </a>
-          <a class="nav-link" href="#">
-            Home
-          </a>
-          <a class="nav-link" href="#">
-            Home
-          </a>
-          <a class="nav-link" href="#">
-            Home
-          </a>
-          <a class="nav-link" href="index.html">
-            BSI
-          </a>
-
+          <ul class="blog-nav-links">
+            <li><a class="nav-link" href="#">
+                Home
+              </a></li>
+            <li><a class="nav-link" href="#section-blog-articles">
+                Articles
+              </a></li>
+            <li><a class="nav-link" href="#section-footer">
+                Contact
+              </a></li>
+            <li><a class="nav-link" href="index.html">
+                BSI
+              </a></li>
+          </ul>
         </div>
+        <button class="blog-btn-mobile-nav">
+          <ion-icon name="menu-outline" class="blog-menu-outline blog-icon-mobile-nav"></ion-icon>
+          <ion-icon name="close-outline" class="blog-close-outline blog-icon-mobile-nav"></ion-icon>
+        </button>
       </header>
       <!-- #endregion header -->
       <div class="text-box">
@@ -66,7 +68,7 @@
     <!-- #endregion featured -->
 
     <!-- #region section-blog-articles -->
-    <section class="section-blog-articles">
+    <section class="section-blog-articles" id="section-blog-articles">
       <div class="articles">
         <div class="article-box">
           <img class="img-blog" src="img/planting-hand.png" alt="handing planting" />
@@ -198,9 +200,9 @@
     </section>
     <!-- #endregion section-blog-articles -->
   </main>
-  <script defer src="scripts/blog.js"></script>
-
   <!-- #region section-footer -->
+
+  <script defer src="script/blog.js"></script>
   <div class="footer-line ">
     <hr>
   </div>
@@ -241,7 +243,6 @@
     </div>
   </footer>
   <!-- #endregion section-footer -->
-  <script src="script/blog.js"></script>
 </body>
 
 </html>
