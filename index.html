@@ -111,7 +111,7 @@
   <!-- #endregion section-purpose -->
 
   <!-- #region section-focus -->
-  <div class="section-focus" id="section-focus">
+  <section class="section-focus" id="section-focus">
     <div class="container">
       <div class="focus grid-cols-2">
         <div class="focus-img-box">
@@ -135,8 +135,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- #endregion section-focus -->
+
+
 
   <!-- #region section-origin -->
   <section class="section-origin" id="section-origin">
@@ -160,48 +162,92 @@
   </section>
   <!-- #endregion section-follow-us -->
 
-  <!-- #region section-footer -->
-  <div class="foooter-line ">
-    <hr>
-  </div>
 
-  <footer class="section-footer" id="section-footer">
-    <div class="footer grid-cols-3">
-      <div class="logo">
-        <div class="footer-logo-box">
-          <img class="footer-logo" src="img/BSI-logo-round.png" alt="company logo">
-          <p class="company-name">Between <br />Seasons <br />Initiative
+  <!-- #retion section-cta -->
+  <section class="section-cta" id="section-cta">
+    <div class="container">
+      <h1 class="heading-secondary">Start Your Journey with <br />Between Seasons Initiative</h1>
+      <p class="cta-text">Share your details and tell us where you are in your journey. We’d love to connect, listen,
+        and
+        explore how we can support you.</p>
+      <form class="contact-form" id="contact-form">
+        <div class="form-col col-1">
+          <div class="form-detail">
+            <label for="name">Fullname:</label>
+            <input type="text" name="name" placeholder="Juan dela Cruz" required />
+          </div>
+          <div class="form-detail">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="my-email@address.com" required />
+          </div>
+        </div>
+        <div class="form-col col-2">
+          <div class="form-detail">
+            <label for="tel">Telephone No.:</label>
+            <input type="tel" name="phone" placeholder="+6309123456789" required />
+          </div>
+          <div class="form-detail">
+            <label for="country">Country:</label>
+            <input type="text" name="country" placeholder="Country" required />
+          </div>
+        </div>
+        <div class="form-col col-3">
+          <div class="form-detail">
+            <label for="message">Message:</label>
+            <textarea name="message" placeholder="What interests you about Between Seasons Initiative?"></textarea>
+          </div>
+          <button class="cta-btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- #endretion section-cta -->
+
+  <!-- #region section-footer -->
+  <section class="section-footer">
+
+    <div class="foooter-line ">
+      <hr>
+    </div>
+
+    <footer class="section-footer" id="section-footer">
+      <div class="footer grid-cols-3">
+        <div class="logo">
+          <div class="footer-logo-box">
+            <img class="footer-logo" src="img/BSI-logo-round.png" alt="company logo">
+            <p class="company-name">Between <br />Seasons <br />Initiative
+          </div>
+        </div>
+        <div class="follow-journey">
+          <p class="column-label">Follow the Journey</p>
+          <p class="journey-text">It is a humble beginning, but we believe that meaningful change often starts with
+            small
+            seeds.</p>
+        </div>
+        <div class="contact-us">
+          <p class="column-label">Contact Us</p>
+          <ul class="contact-list">
+            <li>Address: Brooke's Point, Palawan</li>
+            <li>Email: <a href="mailto:precioussementilla@gmail.com">precioussementilla@gmail.com</a></li>
+            <li>Tel. No: <a href="tel:+639260616615">09260616615</a></li>
+          </ul>
+        </div>
+        <div class="copyright">Copyright © <span class="year">2026</span> by Between Seasons Initiative. All rights
+          reserved.
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.facebook.com/profile.php?id=61572019285851"><img class="contact-icon"
+              src="img/facebook.png" alt="Facebook logo"></a>
+          <a href="https://youtube.com/@betweenseasonsinitiative?si=0zTWjvltaLpBHAyw"><img class="contact-icon"
+              src="img/youtube.png" alt="Youtube logo"></a>
+          <a href="mailto:precioussementilla@gmail.com">
+            <img class="contact-icon" src="img/gmail.png" alt="Gmail logo">
+          </a>
         </div>
       </div>
-      <div class="follow-journey">
-        <p class="column-label">Follow the Journey</p>
-        <p class="journey-text">It is a humble beginning, but we believe that meaningful change often starts with small
-          seeds.</p>
-      </div>
-      <div class="contact-us">
-        <p class="column-label">Contact Us</p>
-        <ul class="contact-list">
-          <li>Address: Brooke's Point, Palawan</li>
-          <li>Email: <a href="mailto:precioussementilla@gmail.com">precioussementilla@gmail.com</a></li>
-          <li>Tel. No: <a href="tel:+639260616615">09260616615</a></li>
-        </ul>
-      </div>
-      <div class="copyright">Copyright © <span class="year">2026</span> by Between Seasons Initiative. All rights
-        reserved.
-      </div>
-      <div class="contact-icons">
-        <a href="https://www.facebook.com/profile.php?id=61572019285851"><img class="contact-icon"
-            src="img/facebook.png" alt="Facebook logo"></a>
-        <a href="https://youtube.com/@betweenseasonsinitiative?si=0zTWjvltaLpBHAyw"><img class="contact-icon"
-            src="img/youtube.png" alt="Youtube logo"></a>
-        <a href="mailto:precioussementilla@gmail.com">
-          <img class="contact-icon" src="img/gmail.png" alt="Gmail logo">
-        </a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
   <!-- #endregion section-footer -->
-
   <script defer src="script/script.js"></script>
 </body>
 
